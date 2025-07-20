@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="1" max="100" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+                </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div>
+            <label for="website">Website:</label>
+            <input type="url" name="website" placeholder="Enter your website URL">
+            </div>
+        <div>
+            <label for="color">Favorite Color:</label>
+            <input type="color" name="color">
+            </div>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="date">
+            </div>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" name="time">
+            </div>
+        <div>
+            <label for="file">File Upload:</label>
+            <input type="file" name="file">
+            </div>
+        <div>
+            <select name="fruits" >
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+            </div>
+        <div>
+            <textarea name="message" rows="4" cols="50" placeholder="Enter your message here"></textarea>
+            </div>
+    </form>
+
+
+</body>
+</html>
