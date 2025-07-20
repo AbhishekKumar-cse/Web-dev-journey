@@ -3,5 +3,8 @@ body{
     transition-property: all;
     
 }
-
+th, td{
+    padding: 10px;
+    border: 1px solid black;
+}
 
