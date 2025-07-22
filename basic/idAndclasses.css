@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(153, 153, 214);
+}
+
+h3 {
+    color: rgb(159, 188, 159);
+}
+
+.name {
+    font-weight: bold;
+     text-decoration: underline;
+}
+
+.age {
+    font-style: italic;
+     text-decoration: underline;
+}
+
+.school {
+    text-decoration: underline;
+}
