@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(223, 137, 137);
+}
+div {
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    margin: 1px;
+   
+    border-radius: 1px;
+   
+}
+ div:first-child {
+        background-color: yellow;
+        color: red;
+    }
+    .aquamarine {
+        background-color: white;
+        color: rgb(87, 187, 154);
+         border: 1px solid black;
+         padding: 1px;
+         margin: 1px;
+    }
