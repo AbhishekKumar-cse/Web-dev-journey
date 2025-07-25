@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selectors</title>
+    <style>
+        /* class selector */
+        .blue {
+            color: blue;
+            font-size: 20px;
+        }
+        /* ID selector */
+        #green {
+            background-color: yellow;
+        }
+        /* child selector */
+        div > p {
+            color: aquamarine;
+        }
+        /* descendant selector */
+        .blue p {
+            color: lightblue;
+        }
+        /* universal selector */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo-class selector */
+        a:visited {
+            color: purple;
+        }
+        a:link {
+            color: red;
+        }
+        a:hover {
+            color: rgb(148, 203, 148);
+        }
+       a:active {
+           background-color: rgb(196, 171, 126);
+       }
+
+       p:first-child {
+           background-color: rgb(196, 171, 126);
+       }
+       p:second-child {
+           background-color: antiquewhite;
+       }
+    </style>
+</head>
+<body>
+    <div class="blue">This is class selector
+        <p>This is a first child element of the div with class "blue"</p>
+        <p>This is a second child element of the div with class "blue"</p>
+
+    </div>
+    <div id="green">This is ID selector</div>
+    <a href="http://google.com">This is a link</a>
+     <a href="http://facebook.com">This is a link</a>
+
+
+
+</body>
+</html>
