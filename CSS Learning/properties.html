@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bitcount+Prop+Single:wght@100..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+    
+        .box {
+           background-color: lightgray;
+            
+        }
+        .box1 {
+            font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+            
+            background-color: lightblue;
+             width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+            box-sizing: border-box;
+            letter-spacing: 0.1em;
+        }
+        .box2 {
+            font-family: cursive;
+            background-color: lightgreen;
+             width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+            box-sizing: border-box;
+            line-height: 1.5;
+        }
+
+        .lorem {
+            font-family: "Ballet", cursive;
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            text-indent: 2em;
+            text-align: justify;
+            text-transform: capitalize;
+            letter-spacing: 0.05em;
+            text-decoration: underline;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1">This is a box1.
+       
+    </div>
+    <div class="box box2">
+         <a href="https://codepen.io/web-dot-dev/pen/yLojraG">font family text style</a>
+    </div>
+    <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam soluta laboriosam porro natus accusantium similique totam praesentium tempore ut maiores a assumenda minus temporibus ex quasi nihil dicta dolor accusamus excepturi, laudantium necessitatibus in deserunt ipsam. Repudiandae nulla sed quas saepe, voluptate dignissimos optio quidem.</p>
+</body>
+</html>
