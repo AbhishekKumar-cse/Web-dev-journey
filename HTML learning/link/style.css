@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(187, 164, 176);
+    transition-property: all;
+    
+}
+th, td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
